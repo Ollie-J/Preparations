@@ -68,9 +68,51 @@ static int CountWords(string s) =>
  s.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries).Length;
 
 
-//Console.WriteLine(CountVowels("Programming"));
-//Console.WriteLine(CountWords("I hear there is a party on"));
+    //Console.WriteLine(CountVowels("Programming"));
+    //Console.WriteLine(CountWords("I hear there is a party on"));
+
+
+    //  public class person
+    // {
+    //    public string Name;
+    //   public int Age;
+    //   public bool hasPet;
+
+
+    //   public void names()
+    //    {
+    //       Console.WriteLine("my name is " + Name + "age is: " + "Has Pet = " + hasPet);
+
+    //   }
+    //  }
+
+    // in the program class write the following as it will run when built
+
+    //person person = new person();
+    //person.Name = "Dave";
+    // person.Age = 24;
+    // person.hasPet = true;
+
+    //person.names();
+
+   // public class car
+    //{
+
+     //   public string model;
+
+     //   public car()
+     //   {
+      //      model = focus;
+
+     //   }
+
+     //   static void Main(string[] args)
+     //   {
+      //      car Ford = new car();
+     //       Console.WriteLine(Ford.model);
+     //   }
 
 
 
+   // }
 }

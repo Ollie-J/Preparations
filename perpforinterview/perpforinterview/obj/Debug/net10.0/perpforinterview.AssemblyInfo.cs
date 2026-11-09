@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("perpforinterview")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8240019f65608831bf319ea3f6954145d1e0a6ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48fb0f4ece41cdb18ebde93062ad8ce76fe20dfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("perpforinterview")]
 [assembly: System.Reflection.AssemblyTitleAttribute("perpforinterview")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

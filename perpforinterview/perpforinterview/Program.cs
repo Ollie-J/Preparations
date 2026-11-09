@@ -1,12 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Xml.Schema;
 namespace Testing
 {
     class Program
     {
-        static void Main(string[] args)
+
+
+        public class Person
         {
-            
+            public string Name;
+            public int Age;
+            public bool hasPet;
+
+
+            public void names()
+            {
+                Console.WriteLine("my name is " + Name + "age is: " + "Has Pet = " + hasPet);
+
+            }
+        }
+
+
+
+        static void Main(string[] args)
+
+
+        {
+
             // converting input to another data type
             //double a = 3.14;
             // int b = Convert.ToInt32(a);
@@ -16,33 +38,33 @@ namespace Testing
             string[] names = { "john", "emily", "Dave" };
             int[] ages = { 25, 30, 35 };
             string[] email = { "john@email.com", "emily@email.com", "Dave@email.com" };
-            int[] passwords = {12345, 24310, 251};
+            int[] passwords = { 12345, 24310, 251 };
             bool[] admins = new bool[3];
-            
+
             admins[0] = false;
             admins[1] = true;
             admins[2] = false;
 
-            
+
 
             // outputting all names in array 
             //foreach (string name in names)
-              //  {
+            //  {
             //        Console.WriteLine(name);
             //}
 
-           for(int i = 0; i < names.Length; i++)
+            for (int i = 0; i < names.Length; i++)
             {
 
 
                 if (names[i] == "john")
-                { 
+                {
                     int johnAge = ages[2];
                     string johnEmail = email[0];
                     int johnpassword = passwords[2];
                     bool johnAdmin = admins[0];
-                    
-                    
+
+
                 }
                 else if (names[i] == "emily")
                 {
@@ -57,14 +79,14 @@ namespace Testing
                     string DaveEmail = email[2];
                     int Davepassword = passwords[1];
                     bool DaveAdmin = admins[0];
-                    
-                    
+
+
                 }
 
                 Console.WriteLine($"{names[i]} is {ages[i]},their email is {email[i]}, The Password for this email is {passwords[i]}, ADMIN STATUS: {admins[i]}");
             }
 
-          
+
 
             bool IsPalindrome(string input)
             {
@@ -87,14 +109,30 @@ namespace Testing
             Console.WriteLine(CountWords("I hear there is a party on"));
 
 
-            
+
 
 
             Console.ReadKey();
-       }
+        }
 
 
     }
-        
+    class Car
+    {
+        public string model;
+        public Car(string modelName)
+        {
+            model = modelName;
+        }
 
+
+        static void CarMain(string[] args)
+        {
+            Car Ford = new Car("Mustang");
+            Console.WriteLine(Ford.model);
+        }
+       
+    }
+    
 }
+
