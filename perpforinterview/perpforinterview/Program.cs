@@ -15,7 +15,15 @@ namespace Testing
 
             string[] names = { "john", "emily", "Dave" };
             int[] ages = { 25, 30, 35 };
-            string[] email = { "john@email,com", "emily@email.com", "Dave@email.com" };
+            string[] email = { "john@email.com", "emily@email.com", "Dave@email.com" };
+            int[] passwords = {12345, 24310, 251};
+            bool[] admins = new bool[3];
+            
+            admins[0] = false;
+            admins[1] = true;
+            admins[2] = false;
+
+            
 
             // outputting all names in array 
             //foreach (string name in names)
@@ -25,21 +33,35 @@ namespace Testing
 
            for(int i = 0; i < names.Length; i++)
             {
+
+
                 if (names[i] == "john")
-                {
-                    string johnEmail = email[0];
+                { 
                     int johnAge = ages[2];
-                }else if (names[i] == "emily")
+                    string johnEmail = email[0];
+                    int johnpassword = passwords[2];
+                    bool johnAdmin = admins[0];
+                    
+                    
+                }
+                else if (names[i] == "emily")
                 {
-                    string emilyEmail = email[1];
                     int emilyAge = ages[0];
-                }else if (names[i] == "Dave")
+                    string emilyEmail = email[1];
+                    int emilypassword = passwords[0];
+                    bool emilyAdmin = admins[1];
+                }
+                else if (names[i] == "Dave")
                 {
-                    string DaveEmail = email[2];
                     int DaveAge = ages[1];
+                    string DaveEmail = email[2];
+                    int Davepassword = passwords[1];
+                    bool DaveAdmin = admins[0];
+                    
+                    
                 }
 
-                Console.WriteLine($"{names[i]} is {ages[i]},their email is {email[i]}");
+                Console.WriteLine($"{names[i]} is {ages[i]},their email is {email[i]}, The Password for this email is {passwords[i]}, ADMIN STATUS: {admins[i]}");
             }
 
           
@@ -52,6 +74,7 @@ namespace Testing
             }
 
             Console.WriteLine(IsPalindrome("Man"));
+            Console.WriteLine(IsPalindrome("RacecaR"));
 
             static int CountVowels(string s) =>
             s.Count(c => "aeiouAEIOU".Contains(c));
@@ -62,6 +85,10 @@ namespace Testing
 
             Console.WriteLine(CountVowels("Programming"));
             Console.WriteLine(CountWords("I hear there is a party on"));
+
+
+            
+
 
             Console.ReadKey();
        }

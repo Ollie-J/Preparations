@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\perpforinterview\\perpforinterview\\perpforinterview.csproj",
+      "projectUniqueName": "D:\\website\\Preparations\\perpforinterview\\perpforinterview\\perpforinterview.csproj",
       "projectName": "perpforinterview",
-      "projectPath": "D:\\perpforinterview\\perpforinterview\\perpforinterview.csproj",
+      "projectPath": "D:\\website\\Preparations\\perpforinterview\\perpforinterview\\perpforinterview.csproj",
       "packagesPath": "C:\\Users\\richi\\.nuget\\packages\\",
-      "outputPath": "D:\\perpforinterview\\perpforinterview\\obj\\",
+      "outputPath": "D:\\website\\Preparations\\perpforinterview\\perpforinterview\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\richi\\AppData\\Roaming\\NuGet\\NuGet.Config",

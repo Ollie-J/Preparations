@@ -15,30 +15,30 @@ public class Class1
 
     }
 
-    Console.WriteLine(IsPalindrome("madam"));
+   // Console.WriteLine(IsPalindrome("madam"));
 
         //classic fizzbuzz 
 
-         for (int i = 1; 1 <= 100; i++)
-            {
-                if (i % 15 == 0)
-                {
-                    Console.WriteLine("FizzBuzz");
-                }
-                else if (i % 3 == 0)
-                {
-                Console.WriteLine("Fizz");
-                }
-                else if (i % 5 == 0)
-                {
-                Console.WriteLine("Buzz");
-                }
-                else
-                {
-                Console.WriteLine(i);
-                }
+        // for (int i = 1; 1 <= 100; i++)
+       //     {
+          //      if (i % 15 == 0)
+         //       {
+               //     Console.WriteLine("FizzBuzz");
+         //       }
+          //      else if (i % 3 == 0)
+          //      {
+         //       Console.WriteLine("Fizz");
+           //     }
+           //     else if (i % 5 == 0)
+           //     {
+           //     Console.WriteLine("Buzz");
+        //        }
+         //       else
+         //       {
+         //       Console.WriteLine(i);
+         //       }
 
-            }
+        //    }
 
    // reverseing the characters in a string 
       static string Reverse(string s)
@@ -55,7 +55,7 @@ public class Class1
 
 
     }
-        Console.WriteLine(Reverse("hello")); //olleh
+      //  Console.WriteLine(Reverse("hello")); //olleh
 
 
 
@@ -68,8 +68,8 @@ static int CountWords(string s) =>
  s.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries).Length;
 
 
-Console.WriteLine(CountVowels("Programming"));
-Console.WriteLine(CountWords("I hear there is a party on"));
+//Console.WriteLine(CountVowels("Programming"));
+//Console.WriteLine(CountWords("I hear there is a party on"));
 
 
 
