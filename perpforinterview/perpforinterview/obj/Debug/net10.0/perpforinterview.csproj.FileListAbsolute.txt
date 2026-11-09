@@ -1,0 +1,15 @@
+D:\perpforinterview\perpforinterview\obj\Debug\net10.0\perpforinterview.GeneratedMSBuildEditorConfig.editorconfig
+D:\perpforinterview\perpforinterview\obj\Debug\net10.0\perpforinterview.AssemblyInfoInputs.cache
+D:\perpforinterview\perpforinterview\obj\Debug\net10.0\perpforinterview.AssemblyInfo.cs
+D:\perpforinterview\perpforinterview\obj\Debug\net10.0\perpforinterview.csproj.CoreCompileInputs.cache
+D:\perpforinterview\perpforinterview\bin\Debug\net10.0\perpforinterview.exe
+D:\perpforinterview\perpforinterview\bin\Debug\net10.0\perpforinterview.deps.json
+D:\perpforinterview\perpforinterview\bin\Debug\net10.0\perpforinterview.runtimeconfig.json
+D:\perpforinterview\perpforinterview\bin\Debug\net10.0\perpforinterview.dll
+D:\perpforinterview\perpforinterview\bin\Debug\net10.0\perpforinterview.pdb
+D:\perpforinterview\perpforinterview\obj\Debug\net10.0\perpforinterview.dll
+D:\perpforinterview\perpforinterview\obj\Debug\net10.0\refint\perpforinterview.dll
+D:\perpforinterview\perpforinterview\obj\Debug\net10.0\perpforinterview.pdb
+D:\perpforinterview\perpforinterview\obj\Debug\net10.0\perpforinterview.genruntimeconfig.cache
+D:\perpforinterview\perpforinterview\obj\Debug\net10.0\ref\perpforinterview.dll
+D:\perpforinterview\perpforinterview\obj\Debug\net10.0\perpfori.9C8ABA64.Up2Date
