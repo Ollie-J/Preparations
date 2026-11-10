@@ -7,6 +7,42 @@ namespace Testing
     class Program
     {
 
+        static int MinList(List<int> numbers)
+        {
+            if (numbers.Count == 0)
+            {
+                return 0;   
+            }
+
+            int min = numbers[0];
+            foreach(int n in numbers)
+            {
+                if(n< min)
+                {
+                    min = n;
+                }
+            }
+            return min;
+            Console.WriteLine(MinList(new List<int> { 4, 9, 2, 7 }));
+        }
+
+        
+
+
+
+
+
+       // static bool IsPalindrome(string text)
+        //{
+           // if(text == null)
+           // {
+           //     return false;
+           // }
+
+           // string reverse = new string(text.Reverse().ToArray());
+            //return text.Equals(reversed, StringComparison().OrdinalIgnoreCase);
+            
+        //}
 
         public class Person
         {
@@ -94,6 +130,7 @@ namespace Testing
                 return input.Equals(reversed, StringComparison.OrdinalIgnoreCase);
 
             }
+          
 
             Console.WriteLine(IsPalindrome("Man"));
             Console.WriteLine(IsPalindrome("RacecaR"));
@@ -135,4 +172,5 @@ namespace Testing
     }
     
 }
+
 

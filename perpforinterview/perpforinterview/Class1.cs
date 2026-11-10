@@ -6,10 +6,27 @@ public class Class1
 	{
 	}
 
+    static bool IsPalindromes(string text)
+    {
+        text = text.ToLower();
+
+        for (int i = 0; i <= text.Length; i++)
+        {
+            if (text[i] != text[text.Length - 1 - i])
+            { 
+                return false;
+            }
+        }
+        return true;
+    }
 
     // IsPalindrome function checks if a given string is a palindrome or not
     bool IsPalindrome(string input)
     {
+        if(input == null)
+        {
+            return false;
+        }
         string reversed = new string(input.Reverse().ToArray());
         return input.Equals(reversed, StringComparison.OrdinalIgnoreCase);
 
@@ -116,3 +133,5 @@ static int CountWords(string s) =>
 
    // }
 }
+
+
